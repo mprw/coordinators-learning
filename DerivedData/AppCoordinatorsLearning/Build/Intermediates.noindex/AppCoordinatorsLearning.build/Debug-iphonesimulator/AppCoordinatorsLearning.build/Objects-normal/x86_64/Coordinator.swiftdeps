@@ -1,0 +1,41 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Coordinator"
+provides-nominal:
+- "23AppCoordinatorsLearning11CoordinatorC"
+provides-member:
+- ["23AppCoordinatorsLearning11CoordinatorC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Coordinator"
+- "UINavigationController"
+depends-member:
+- ["23AppCoordinatorsLearning11CoordinatorC", "Coordinator"]
+- ["23AppCoordinatorsLearning11CoordinatorC", "UINavigationController"]
+- ["23AppCoordinatorsLearning11CoordinatorC", "childCoordinators"]
+- ["23AppCoordinatorsLearning11CoordinatorC", "deinit"]
+- ["23AppCoordinatorsLearning11CoordinatorC", "init"]
+- ["23AppCoordinatorsLearning11CoordinatorC", "navigationController"]
+depends-nominal:
+- "23AppCoordinatorsLearning11CoordinatorC"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/martyn/Development/AppCoordinatorsLearning/DerivedData/AppCoordinatorsLearning/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/martyn/Development/AppCoordinatorsLearning/DerivedData/AppCoordinatorsLearning/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/DerivedData/AppCoordinatorsLearning/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/DerivedData/AppCoordinatorsLearning/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+interface-hash: "bda550521bd244c3cbb95bdeaf3d9fbe"

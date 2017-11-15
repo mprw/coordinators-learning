@@ -1,0 +1,4 @@
+dependencies: \
+  /Users/martyn/Development/AppCoordinatorsLearning/Pods/Target\ Support\ Files/RxCocoa/RxCocoa-dummy.m \
+  /Users/martyn/Development/AppCoordinatorsLearning/DerivedData/AppCoordinatorsLearning/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxCocoa.build/module.modulemap \
+  /Users/martyn/Development/AppCoordinatorsLearning/Pods/Target\ Support\ Files/RxCocoa/RxCocoa-prefix.pch

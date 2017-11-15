@@ -1,0 +1,314 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxTabBarDelegateProxy"
+provides-nominal:
+- "7RxCocoa0A19TabBarDelegateProxyC"
+provides-member:
+- ["7RxCocoa0A19TabBarDelegateProxyC", ""]
+provides-dynamic-lookup:
+- "createProxyForObject"
+- "currentDelegateFor"
+- "setCurrentDelegate"
+depends-top-level:
+- "AnyObject"
+- "AssignmentPrecedence"
+- "DelegateProxy"
+- "DelegateProxyType"
+- "RxTabBarDelegateProxy"
+- !private "UITabBar"
+- "UITabBarDelegate"
+- !private "castOptionalOrFatalError"
+- !private "castOrFatalError"
+depends-member:
+- !private ["So15CALayerDelegateP", "createRxDelegateProxy"]
+- !private ["So15CALayerDelegateP", "delegate"]
+- ["s7CVarArgP", "assignProxy"]
+- ["s7CVarArgP", "assignedProxyFor"]
+- !private ["s7CVarArgP", "castOptionalOrFatalError"]
+- !private ["s7CVarArgP", "castOrFatalError"]
+- ["s7CVarArgP", "createProxyForObject"]
+- !private ["s7CVarArgP", "createRxDelegateProxy"]
+- ["s7CVarArgP", "currentDelegateFor"]
+- !private ["s7CVarArgP", "delegate"]
+- ["s7CVarArgP", "forwardToDelegate"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "setCurrentDelegate"]
+- ["s7CVarArgP", "setForwardToDelegate"]
+- ["s7CVarArgP", "tabBar"]
+- ["s7CVarArgP", ""]
+- ["s28CustomDebugStringConvertibleP", "assignProxy"]
+- ["s28CustomDebugStringConvertibleP", "assignedProxyFor"]
+- !private ["s28CustomDebugStringConvertibleP", "castOptionalOrFatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "castOrFatalError"]
+- ["s28CustomDebugStringConvertibleP", "createProxyForObject"]
+- !private ["s28CustomDebugStringConvertibleP", "createRxDelegateProxy"]
+- ["s28CustomDebugStringConvertibleP", "currentDelegateFor"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- ["s28CustomDebugStringConvertibleP", "forwardToDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "setCurrentDelegate"]
+- ["s28CustomDebugStringConvertibleP", "setForwardToDelegate"]
+- ["s28CustomDebugStringConvertibleP", "tabBar"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "assignProxy"]
+- ["s23CustomStringConvertibleP", "assignedProxyFor"]
+- !private ["s23CustomStringConvertibleP", "castOptionalOrFatalError"]
+- !private ["s23CustomStringConvertibleP", "castOrFatalError"]
+- ["s23CustomStringConvertibleP", "createProxyForObject"]
+- !private ["s23CustomStringConvertibleP", "createRxDelegateProxy"]
+- ["s23CustomStringConvertibleP", "currentDelegateFor"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- ["s23CustomStringConvertibleP", "forwardToDelegate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "setCurrentDelegate"]
+- ["s23CustomStringConvertibleP", "setForwardToDelegate"]
+- ["s23CustomStringConvertibleP", "tabBar"]
+- ["s23CustomStringConvertibleP", ""]
+- ["7RxCocoa13DelegateProxyC", "AnyObject"]
+- !private ["7RxCocoa13DelegateProxyC", "UITabBar"]
+- ["7RxCocoa13DelegateProxyC", "assignProxy"]
+- ["7RxCocoa13DelegateProxyC", "assignedProxyFor"]
+- !private ["7RxCocoa13DelegateProxyC", "castOptionalOrFatalError"]
+- !private ["7RxCocoa13DelegateProxyC", "castOrFatalError"]
+- ["7RxCocoa13DelegateProxyC", "createProxyForObject"]
+- ["7RxCocoa13DelegateProxyC", "currentDelegateFor"]
+- ["7RxCocoa13DelegateProxyC", "forwardToDelegate"]
+- ["7RxCocoa13DelegateProxyC", "init"]
+- ["7RxCocoa13DelegateProxyC", "setCurrentDelegate"]
+- ["7RxCocoa13DelegateProxyC", "setForwardToDelegate"]
+- ["7RxCocoa13DelegateProxyC", "tabBar"]
+- ["7RxCocoa13DelegateProxyC", ""]
+- ["7RxCocoa17DelegateProxyTypeP", "assignProxy"]
+- ["7RxCocoa17DelegateProxyTypeP", "assignedProxyFor"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "castOptionalOrFatalError"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "castOrFatalError"]
+- ["7RxCocoa17DelegateProxyTypeP", "createProxyForObject"]
+- ["7RxCocoa17DelegateProxyTypeP", "currentDelegateFor"]
+- ["7RxCocoa17DelegateProxyTypeP", "forwardToDelegate"]
+- ["7RxCocoa17DelegateProxyTypeP", "setCurrentDelegate"]
+- ["7RxCocoa17DelegateProxyTypeP", "setForwardToDelegate"]
+- ["7RxCocoa17DelegateProxyTypeP", "tabBar"]
+- ["7RxCocoa17DelegateProxyTypeP", ""]
+- ["s9EquatableP", "assignProxy"]
+- ["s9EquatableP", "assignedProxyFor"]
+- !private ["s9EquatableP", "castOptionalOrFatalError"]
+- !private ["s9EquatableP", "castOrFatalError"]
+- ["s9EquatableP", "createProxyForObject"]
+- !private ["s9EquatableP", "createRxDelegateProxy"]
+- ["s9EquatableP", "currentDelegateFor"]
+- !private ["s9EquatableP", "delegate"]
+- ["s9EquatableP", "forwardToDelegate"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "setCurrentDelegate"]
+- ["s9EquatableP", "setForwardToDelegate"]
+- ["s9EquatableP", "tabBar"]
+- ["s9EquatableP", ""]
+- ["s8HashableP", "assignProxy"]
+- ["s8HashableP", "assignedProxyFor"]
+- !private ["s8HashableP", "castOptionalOrFatalError"]
+- !private ["s8HashableP", "castOrFatalError"]
+- ["s8HashableP", "createProxyForObject"]
+- !private ["s8HashableP", "createRxDelegateProxy"]
+- ["s8HashableP", "currentDelegateFor"]
+- !private ["s8HashableP", "delegate"]
+- ["s8HashableP", "forwardToDelegate"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "setCurrentDelegate"]
+- ["s8HashableP", "setForwardToDelegate"]
+- ["s8HashableP", "tabBar"]
+- ["s8HashableP", ""]
+- !private ["So8NSCodingP", "createRxDelegateProxy"]
+- !private ["So8NSCodingP", "delegate"]
+- ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "UITabBar"]
+- ["So8NSObjectC", "assignProxy"]
+- ["So8NSObjectC", "assignedProxyFor"]
+- !private ["So8NSObjectC", "castOptionalOrFatalError"]
+- !private ["So8NSObjectC", "castOrFatalError"]
+- ["So8NSObjectC", "createProxyForObject"]
+- !private ["So8NSObjectC", "createRxDelegateProxy"]
+- ["So8NSObjectC", "currentDelegateFor"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "forwardToDelegate"]
+- ["So8NSObjectC", "setCurrentDelegate"]
+- ["So8NSObjectC", "setForwardToDelegate"]
+- ["So8NSObjectC", "tabBar"]
+- ["So16NSObjectProtocolP", "assignProxy"]
+- ["So16NSObjectProtocolP", "assignedProxyFor"]
+- !private ["So16NSObjectProtocolP", "castOptionalOrFatalError"]
+- !private ["So16NSObjectProtocolP", "castOrFatalError"]
+- ["So16NSObjectProtocolP", "createProxyForObject"]
+- !private ["So16NSObjectProtocolP", "createRxDelegateProxy"]
+- ["So16NSObjectProtocolP", "currentDelegateFor"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- ["So16NSObjectProtocolP", "forwardToDelegate"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "setCurrentDelegate"]
+- ["So16NSObjectProtocolP", "setForwardToDelegate"]
+- ["So16NSObjectProtocolP", "tabBar"]
+- ["So16NSObjectProtocolP", ""]
+- ["7RxSwift18ReactiveCompatibleP", "assignProxy"]
+- ["7RxSwift18ReactiveCompatibleP", "assignedProxyFor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "castOptionalOrFatalError"]
+- !private ["7RxSwift18ReactiveCompatibleP", "castOrFatalError"]
+- ["7RxSwift18ReactiveCompatibleP", "createProxyForObject"]
+- !private ["7RxSwift18ReactiveCompatibleP", "createRxDelegateProxy"]
+- ["7RxSwift18ReactiveCompatibleP", "currentDelegateFor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "delegate"]
+- ["7RxSwift18ReactiveCompatibleP", "forwardToDelegate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- ["7RxSwift18ReactiveCompatibleP", "setCurrentDelegate"]
+- ["7RxSwift18ReactiveCompatibleP", "setForwardToDelegate"]
+- ["7RxSwift18ReactiveCompatibleP", "tabBar"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "AnyObject"]
+- !private ["7RxCocoa0A19TabBarDelegateProxyC", "UITabBar"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "assignProxy"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "assignedProxyFor"]
+- !private ["7RxCocoa0A19TabBarDelegateProxyC", "castOptionalOrFatalError"]
+- !private ["7RxCocoa0A19TabBarDelegateProxyC", "castOrFatalError"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "createProxyForObject"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "currentDelegateFor"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "deinit"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "forwardToDelegate"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "init"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "setCurrentDelegate"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "setForwardToDelegate"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "tabBar"]
+- !private ["So29UIAccessibilityIdentificationP", "createRxDelegateProxy"]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So12UIAppearanceP", "createRxDelegateProxy"]
+- !private ["So12UIAppearanceP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "createRxDelegateProxy"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So17UICoordinateSpaceP", "createRxDelegateProxy"]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So13UIDynamicItemP", "createRxDelegateProxy"]
+- !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "createRxDelegateProxy"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So11UIFocusItemP", "createRxDelegateProxy"]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "createRxDelegateProxy"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So11UIResponderC", "createRxDelegateProxy"]
+- !private ["So11UIResponderC", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "createRxDelegateProxy"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "createRxDelegateProxy"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "delegate"]
+- !private ["So8UITabBarC", "createRxDelegateProxy"]
+- !private ["So8UITabBarC", "delegate"]
+- ["So16UITabBarDelegateP", "assignProxy"]
+- ["So16UITabBarDelegateP", "assignedProxyFor"]
+- !private ["So16UITabBarDelegateP", "castOptionalOrFatalError"]
+- !private ["So16UITabBarDelegateP", "castOrFatalError"]
+- ["So16UITabBarDelegateP", "createProxyForObject"]
+- ["So16UITabBarDelegateP", "currentDelegateFor"]
+- ["So16UITabBarDelegateP", "forwardToDelegate"]
+- ["So16UITabBarDelegateP", "setCurrentDelegate"]
+- ["So16UITabBarDelegateP", "setForwardToDelegate"]
+- ["So16UITabBarDelegateP", "tabBar"]
+- ["So16UITabBarDelegateP", ""]
+- !private ["So18UITraitEnvironmentP", "createRxDelegateProxy"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So6UIViewC", "createRxDelegateProxy"]
+- !private ["So6UIViewC", "delegate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "createRxDelegateProxy"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "assignProxy"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "assignedProxyFor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "castOptionalOrFatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "castOrFatalError"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "createProxyForObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createRxDelegateProxy"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "currentDelegateFor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "forwardToDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "setCurrentDelegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "setForwardToDelegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tabBar"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["So16_RXDelegateProxyC", "AnyObject"]
+- !private ["So16_RXDelegateProxyC", "UITabBar"]
+- ["So16_RXDelegateProxyC", "assignProxy"]
+- ["So16_RXDelegateProxyC", "assignedProxyFor"]
+- !private ["So16_RXDelegateProxyC", "castOptionalOrFatalError"]
+- !private ["So16_RXDelegateProxyC", "castOrFatalError"]
+- ["So16_RXDelegateProxyC", "createProxyForObject"]
+- ["So16_RXDelegateProxyC", "currentDelegateFor"]
+- ["So16_RXDelegateProxyC", "forwardToDelegate"]
+- ["So16_RXDelegateProxyC", "setCurrentDelegate"]
+- ["So16_RXDelegateProxyC", "setForwardToDelegate"]
+- ["So16_RXDelegateProxyC", "tabBar"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "7RxCocoa13DelegateProxyC"
+- "7RxCocoa17DelegateProxyTypeP"
+- "s9EquatableP"
+- "s8HashableP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "7RxSwift18ReactiveCompatibleP"
+- "7RxCocoa0A19TabBarDelegateProxyC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So8UITabBarC"
+- "So16UITabBarDelegateP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "So16_RXDelegateProxyC"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/martyn/Development/AppCoordinatorsLearning/DerivedData/AppCoordinatorsLearning/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/DerivedData/AppCoordinatorsLearning/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/DerivedData/AppCoordinatorsLearning/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Users/martyn/Development/AppCoordinatorsLearning/DerivedData/AppCoordinatorsLearning/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/usr/include/Darwin.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "949fbf8107a8bbcdd93bb65529278a7f"

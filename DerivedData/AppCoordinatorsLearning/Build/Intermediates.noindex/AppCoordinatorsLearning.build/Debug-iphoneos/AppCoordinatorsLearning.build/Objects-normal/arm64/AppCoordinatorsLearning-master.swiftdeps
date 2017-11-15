@@ -1,0 +1,15 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "511b19ed14fd3929e7b34a495c02aa3e"
+build_time: [1506583937, 300706000]
+inputs:
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/Coordinators/BlueScreenCoordinator.swift": [1506518883, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/ViewControllers/BlueScreenViewController.swift": [1506517012, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/ViewControllers/GreenScreenViewController.swift": [1506517012, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/Coordinators/StartScreenCoordinator.swift": [1506520978, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/Coordinators/Coordinator.swift": [1506499834, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/Coordinators/AppCoordinator.swift": [1506518618, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/Coordinators/RedScreenCoordinator.swift": [1506518883, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/AppDelegate.swift": [1506501675, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/ViewControllers/RedScreenViewController.swift": [1506517012, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/Coordinators/GreenScreenCoordinator.swift": [1506516442, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/ViewControllers/StartScreenViewController.swift": [1506517107, 0]

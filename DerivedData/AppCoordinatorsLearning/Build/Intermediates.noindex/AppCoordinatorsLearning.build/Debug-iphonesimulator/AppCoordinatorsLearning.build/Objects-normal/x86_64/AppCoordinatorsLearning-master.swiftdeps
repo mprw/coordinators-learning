@@ -1,0 +1,18 @@
+version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
+options: "9cff93081d0ad22688ca7a818534313a"
+build_time: [1510558192, 676790000]
+inputs:
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/Coordinators/BlueScreenCoordinator.swift": [1506518883, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/ViewControllers/BlueScreenViewController.swift": [1506675422, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/ViewControllers/GreenScreenViewController.swift": [1506584915, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/Coordinators/StartScreenCoordinator.swift": [1506520978, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/ViewModels/BlueScreenViewModel.swift": [1506585055, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/Coordinators/Coordinator.swift": [1506499834, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/Coordinators/AppCoordinator.swift": [1506518618, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/Coordinators/RedScreenCoordinator.swift": [1506518883, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/ViewModels/RedScreenViewModel.swift": [1506585026, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/AppDelegate.swift": [1506501675, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/ViewControllers/RedScreenViewController.swift": [1506585009, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/Coordinators/GreenScreenCoordinator.swift": [1506584468, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/ViewModels/GreenScreenViewModel.swift": [1506584713, 0]
+  "/Users/martyn/Development/AppCoordinatorsLearning/AppCoordinatorsLearning/ViewControllers/StartScreenViewController.swift": [1506517107, 0]

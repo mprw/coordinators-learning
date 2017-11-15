@@ -1,0 +1,50 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["7RxSwift10ObservableC", ""]
+- ["7RxSwift10DisposableP", ""]
+- ["7RxSwift10ObservableC", "from"]
+- ["7RxSwift10ObservableC", "from"]
+- ["7RxSwift10DisposableP", "addDisposableTo"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Disposable"
+- "DisposeBag"
+- "ImmediateSchedulerType"
+- "Observable"
+depends-member:
+- ["7RxSwift10DisposableP", "DisposeBag"]
+- ["7RxSwift10DisposableP", "addDisposableTo"]
+- !private ["7RxSwift10DisposableP", "disposed"]
+- ["7RxSwift10ObservableC", "E"]
+- ["7RxSwift10ObservableC", "ImmediateSchedulerType"]
+- ["7RxSwift10ObservableC", "Observable"]
+- ["7RxSwift10ObservableC", "from"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "Observable"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "from"]
+- !private ["7RxSwift14ObservableTypeP", "Observable"]
+- !private ["7RxSwift14ObservableTypeP", "from"]
+depends-nominal:
+- "7RxSwift10DisposableP"
+- "7RxSwift10ObservableC"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "7RxSwift14ObservableTypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/DerivedData/AppCoordinatorsLearning/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/RxSwift.build/unextended-module.modulemap"
+interface-hash: "96e794860473c9ae695a0b73af0dfa55"

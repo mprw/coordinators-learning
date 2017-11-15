@@ -7,21 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13438552221A07958116919C /* Pods_AppCoordinatorsLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D5C70274A1E4B148E43FA8 /* Pods_AppCoordinatorsLearning.framework */; };
+		5A202D3B1F7CDF1300AA438D /* GreenScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A202D3A1F7CDF1300AA438D /* GreenScreenViewModel.swift */; };
+		5A202D3D1F7CE13000AA438D /* RedScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A202D3C1F7CE13000AA438D /* RedScreenViewModel.swift */; };
+		5A202D3F1F7CE14F00AA438D /* BlueScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A202D3E1F7CE14F00AA438D /* BlueScreenViewModel.swift */; };
 		5AB1939A1F7B91F800B9D566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB193991F7B91F800B9D566 /* AppDelegate.swift */; };
-		5AB1939C1F7B91F800B9D566 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB1939B1F7B91F800B9D566 /* ViewController.swift */; };
-		5AB1939F1F7B91F800B9D566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AB1939D1F7B91F800B9D566 /* Main.storyboard */; };
+		5AB1939C1F7B91F800B9D566 /* GreenScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB1939B1F7B91F800B9D566 /* GreenScreenViewController.swift */; };
 		5AB193A11F7B91F800B9D566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AB193A01F7B91F800B9D566 /* Assets.xcassets */; };
 		5AB193A41F7B91F800B9D566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AB193A21F7B91F800B9D566 /* LaunchScreen.storyboard */; };
+		5AB193AC1F7B928900B9D566 /* RedScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB193AB1F7B928900B9D566 /* RedScreenViewController.swift */; };
+		5AB193AE1F7B92AC00B9D566 /* BlueScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB193AD1F7B92AC00B9D566 /* BlueScreenViewController.swift */; };
+		5AB193B21F7B935800B9D566 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB193B11F7B935800B9D566 /* AppCoordinator.swift */; };
+		5AB193B41F7B939600B9D566 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB193B31F7B939600B9D566 /* Coordinator.swift */; };
+		5AB193B61F7B947900B9D566 /* GreenScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB193B51F7B947900B9D566 /* GreenScreenCoordinator.swift */; };
+		5AB193B81F7B948800B9D566 /* RedScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB193B71F7B948800B9D566 /* RedScreenCoordinator.swift */; };
+		5AB193BA1F7B949500B9D566 /* BlueScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB193B91F7B949500B9D566 /* BlueScreenCoordinator.swift */; };
+		5AB193BD1F7B995E00B9D566 /* GreenScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AB193BC1F7B995E00B9D566 /* GreenScreenViewController.xib */; };
+		5AB193BF1F7BAD1000B9D566 /* StartScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AB193BE1F7BAD1000B9D566 /* StartScreenViewController.xib */; };
+		5AB193C11F7BAD2300B9D566 /* RedScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AB193C01F7BAD2300B9D566 /* RedScreenViewController.xib */; };
+		5AB193C31F7BAD3800B9D566 /* BlueScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AB193C21F7BAD3800B9D566 /* BlueScreenViewController.xib */; };
+		5AB193C51F7BAD5400B9D566 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB193C41F7BAD5400B9D566 /* StartScreenViewController.swift */; };
+		5AB193C71F7BAD8200B9D566 /* StartScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB193C61F7BAD8200B9D566 /* StartScreenCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00D5C70274A1E4B148E43FA8 /* Pods_AppCoordinatorsLearning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppCoordinatorsLearning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		297EABD6702F2E4AC2671C04 /* Pods-AppCoordinatorsLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCoordinatorsLearning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppCoordinatorsLearning/Pods-AppCoordinatorsLearning.debug.xcconfig"; sourceTree = "<group>"; };
+		5A202D3A1F7CDF1300AA438D /* GreenScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScreenViewModel.swift; sourceTree = "<group>"; };
+		5A202D3C1F7CE13000AA438D /* RedScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedScreenViewModel.swift; sourceTree = "<group>"; };
+		5A202D3E1F7CE14F00AA438D /* BlueScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueScreenViewModel.swift; sourceTree = "<group>"; };
 		5AB193961F7B91F800B9D566 /* AppCoordinatorsLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppCoordinatorsLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB193991F7B91F800B9D566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5AB1939B1F7B91F800B9D566 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5AB1939E1F7B91F800B9D566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AB1939B1F7B91F800B9D566 /* GreenScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScreenViewController.swift; sourceTree = "<group>"; };
 		5AB193A01F7B91F800B9D566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AB193A31F7B91F800B9D566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AB193A51F7B91F800B9D566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AB193AB1F7B928900B9D566 /* RedScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedScreenViewController.swift; sourceTree = "<group>"; };
+		5AB193AD1F7B92AC00B9D566 /* BlueScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueScreenViewController.swift; sourceTree = "<group>"; };
+		5AB193B11F7B935800B9D566 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		5AB193B31F7B939600B9D566 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		5AB193B51F7B947900B9D566 /* GreenScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScreenCoordinator.swift; sourceTree = "<group>"; };
+		5AB193B71F7B948800B9D566 /* RedScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedScreenCoordinator.swift; sourceTree = "<group>"; };
+		5AB193B91F7B949500B9D566 /* BlueScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueScreenCoordinator.swift; sourceTree = "<group>"; };
+		5AB193BC1F7B995E00B9D566 /* GreenScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GreenScreenViewController.xib; sourceTree = "<group>"; };
+		5AB193BE1F7BAD1000B9D566 /* StartScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartScreenViewController.xib; sourceTree = "<group>"; };
+		5AB193C01F7BAD2300B9D566 /* RedScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RedScreenViewController.xib; sourceTree = "<group>"; };
+		5AB193C21F7BAD3800B9D566 /* BlueScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlueScreenViewController.xib; sourceTree = "<group>"; };
+		5AB193C41F7BAD5400B9D566 /* StartScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
+		5AB193C61F7BAD8200B9D566 /* StartScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenCoordinator.swift; sourceTree = "<group>"; };
+		67585C73C6840BDDBF95B920 /* Pods-AppCoordinatorsLearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCoordinatorsLearning.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppCoordinatorsLearning/Pods-AppCoordinatorsLearning.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13438552221A07958116919C /* Pods_AppCoordinatorsLearning.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FB97E4CA590B80AEB432F6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				297EABD6702F2E4AC2671C04 /* Pods-AppCoordinatorsLearning.debug.xcconfig */,
+				67585C73C6840BDDBF95B920 /* Pods-AppCoordinatorsLearning.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		521B5823F9C8F5B28CE08ACA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00D5C70274A1E4B148E43FA8 /* Pods_AppCoordinatorsLearning.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A202D391F7CDEEC00AA438D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5A202D3A1F7CDF1300AA438D /* GreenScreenViewModel.swift */,
+				5A202D3C1F7CE13000AA438D /* RedScreenViewModel.swift */,
+				5A202D3E1F7CE14F00AA438D /* BlueScreenViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		5AB1938D1F7B91F800B9D566 = {
 			isa = PBXGroup;
 			children = (
 				5AB193981F7B91F800B9D566 /* AppCoordinatorsLearning */,
 				5AB193971F7B91F800B9D566 /* Products */,
+				0FB97E4CA590B80AEB432F6C /* Pods */,
+				521B5823F9C8F5B28CE08ACA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +118,51 @@
 		5AB193981F7B91F800B9D566 /* AppCoordinatorsLearning */ = {
 			isa = PBXGroup;
 			children = (
+				5AB193AF1F7B933400B9D566 /* Coordinators */,
+				5AB193B01F7B933E00B9D566 /* ViewControllers */,
+				5AB193BB1F7B993C00B9D566 /* Views */,
+				5A202D391F7CDEEC00AA438D /* ViewModels */,
 				5AB193991F7B91F800B9D566 /* AppDelegate.swift */,
-				5AB1939B1F7B91F800B9D566 /* ViewController.swift */,
-				5AB1939D1F7B91F800B9D566 /* Main.storyboard */,
 				5AB193A01F7B91F800B9D566 /* Assets.xcassets */,
 				5AB193A21F7B91F800B9D566 /* LaunchScreen.storyboard */,
 				5AB193A51F7B91F800B9D566 /* Info.plist */,
 			);
 			path = AppCoordinatorsLearning;
+			sourceTree = "<group>";
+		};
+		5AB193AF1F7B933400B9D566 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				5AB193B31F7B939600B9D566 /* Coordinator.swift */,
+				5AB193B11F7B935800B9D566 /* AppCoordinator.swift */,
+				5AB193C61F7BAD8200B9D566 /* StartScreenCoordinator.swift */,
+				5AB193B51F7B947900B9D566 /* GreenScreenCoordinator.swift */,
+				5AB193B71F7B948800B9D566 /* RedScreenCoordinator.swift */,
+				5AB193B91F7B949500B9D566 /* BlueScreenCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		5AB193B01F7B933E00B9D566 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5AB193C41F7BAD5400B9D566 /* StartScreenViewController.swift */,
+				5AB1939B1F7B91F800B9D566 /* GreenScreenViewController.swift */,
+				5AB193AB1F7B928900B9D566 /* RedScreenViewController.swift */,
+				5AB193AD1F7B92AC00B9D566 /* BlueScreenViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5AB193BB1F7B993C00B9D566 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5AB193BE1F7BAD1000B9D566 /* StartScreenViewController.xib */,
+				5AB193BC1F7B995E00B9D566 /* GreenScreenViewController.xib */,
+				5AB193C01F7BAD2300B9D566 /* RedScreenViewController.xib */,
+				5AB193C21F7BAD3800B9D566 /* BlueScreenViewController.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AB193A81F7B91F800B9D566 /* Build configuration list for PBXNativeTarget "AppCoordinatorsLearning" */;
 			buildPhases = (
+				2245E8F5599D00B8FC929424 /* [CP] Check Pods Manifest.lock */,
 				5AB193921F7B91F800B9D566 /* Sources */,
 				5AB193931F7B91F800B9D566 /* Frameworks */,
 				5AB193941F7B91F800B9D566 /* Resources */,
+				D9920C0C30AFD05892BD2D8F /* [CP] Embed Pods Frameworks */,
+				55DCE4B689469B910EF54797 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,35 +227,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AB193C31F7BAD3800B9D566 /* BlueScreenViewController.xib in Resources */,
 				5AB193A41F7B91F800B9D566 /* LaunchScreen.storyboard in Resources */,
 				5AB193A11F7B91F800B9D566 /* Assets.xcassets in Resources */,
-				5AB1939F1F7B91F800B9D566 /* Main.storyboard in Resources */,
+				5AB193BD1F7B995E00B9D566 /* GreenScreenViewController.xib in Resources */,
+				5AB193C11F7BAD2300B9D566 /* RedScreenViewController.xib in Resources */,
+				5AB193BF1F7BAD1000B9D566 /* StartScreenViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2245E8F5599D00B8FC929424 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		55DCE4B689469B910EF54797 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppCoordinatorsLearning/Pods-AppCoordinatorsLearning-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9920C0C30AFD05892BD2D8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppCoordinatorsLearning/Pods-AppCoordinatorsLearning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5AB193921F7B91F800B9D566 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AB1939C1F7B91F800B9D566 /* ViewController.swift in Sources */,
+				5AB193BA1F7B949500B9D566 /* BlueScreenCoordinator.swift in Sources */,
+				5AB193AE1F7B92AC00B9D566 /* BlueScreenViewController.swift in Sources */,
+				5AB1939C1F7B91F800B9D566 /* GreenScreenViewController.swift in Sources */,
+				5AB193C71F7BAD8200B9D566 /* StartScreenCoordinator.swift in Sources */,
+				5A202D3F1F7CE14F00AA438D /* BlueScreenViewModel.swift in Sources */,
+				5AB193B41F7B939600B9D566 /* Coordinator.swift in Sources */,
+				5AB193B21F7B935800B9D566 /* AppCoordinator.swift in Sources */,
+				5AB193B81F7B948800B9D566 /* RedScreenCoordinator.swift in Sources */,
+				5A202D3D1F7CE13000AA438D /* RedScreenViewModel.swift in Sources */,
 				5AB1939A1F7B91F800B9D566 /* AppDelegate.swift in Sources */,
+				5AB193AC1F7B928900B9D566 /* RedScreenViewController.swift in Sources */,
+				5AB193B61F7B947900B9D566 /* GreenScreenCoordinator.swift in Sources */,
+				5A202D3B1F7CDF1300AA438D /* GreenScreenViewModel.swift in Sources */,
+				5AB193C51F7BAD5400B9D566 /* StartScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5AB1939D1F7B91F800B9D566 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5AB1939E1F7B91F800B9D566 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5AB193A21F7B91F800B9D566 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,6 +431,7 @@
 		};
 		5AB193A91F7B91F800B9D566 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 297EABD6702F2E4AC2671C04 /* Pods-AppCoordinatorsLearning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -280,13 +440,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rm.AppCoordinatorsLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		5AB193AA1F7B91F800B9D566 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67585C73C6840BDDBF95B920 /* Pods-AppCoordinatorsLearning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,7 +456,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rm.AppCoordinatorsLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

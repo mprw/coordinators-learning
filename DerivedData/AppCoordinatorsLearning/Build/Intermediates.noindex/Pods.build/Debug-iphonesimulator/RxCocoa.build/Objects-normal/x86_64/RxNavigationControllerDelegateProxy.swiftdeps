@@ -1,0 +1,372 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxNavigationControllerDelegateProxy"
+provides-nominal:
+- "7RxCocoa0A33NavigationControllerDelegateProxyC"
+provides-member:
+- ["7RxCocoa0A33NavigationControllerDelegateProxyC", ""]
+provides-dynamic-lookup:
+- "createProxyForObject"
+- "currentDelegateFor"
+- "setCurrentDelegate"
+depends-top-level:
+- "AnyObject"
+- "AssignmentPrecedence"
+- "DelegateProxy"
+- "DelegateProxyType"
+- "RxNavigationControllerDelegateProxy"
+- "UIImagePickerControllerDelegate"
+- !private "UINavigationController"
+- "UINavigationControllerDelegate"
+- !private "castOptionalOrFatalError"
+- !private "castOrFatalError"
+depends-member:
+- ["s7CVarArgP", "assignProxy"]
+- ["s7CVarArgP", "assignedProxyFor"]
+- !private ["s7CVarArgP", "castOptionalOrFatalError"]
+- !private ["s7CVarArgP", "castOrFatalError"]
+- ["s7CVarArgP", "createProxyForObject"]
+- !private ["s7CVarArgP", "createRxDelegateProxy"]
+- ["s7CVarArgP", "currentDelegateFor"]
+- !private ["s7CVarArgP", "delegate"]
+- ["s7CVarArgP", "forwardToDelegate"]
+- ["s7CVarArgP", "imagePickerController"]
+- ["s7CVarArgP", "imagePickerControllerDidCancel"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "navigationController"]
+- ["s7CVarArgP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["s7CVarArgP", "navigationControllerSupportedInterfaceOrientations"]
+- ["s7CVarArgP", "setCurrentDelegate"]
+- ["s7CVarArgP", "setForwardToDelegate"]
+- ["s7CVarArgP", ""]
+- ["s28CustomDebugStringConvertibleP", "assignProxy"]
+- ["s28CustomDebugStringConvertibleP", "assignedProxyFor"]
+- !private ["s28CustomDebugStringConvertibleP", "castOptionalOrFatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "castOrFatalError"]
+- ["s28CustomDebugStringConvertibleP", "createProxyForObject"]
+- !private ["s28CustomDebugStringConvertibleP", "createRxDelegateProxy"]
+- ["s28CustomDebugStringConvertibleP", "currentDelegateFor"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- ["s28CustomDebugStringConvertibleP", "forwardToDelegate"]
+- ["s28CustomDebugStringConvertibleP", "imagePickerController"]
+- ["s28CustomDebugStringConvertibleP", "imagePickerControllerDidCancel"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "navigationController"]
+- ["s28CustomDebugStringConvertibleP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["s28CustomDebugStringConvertibleP", "navigationControllerSupportedInterfaceOrientations"]
+- ["s28CustomDebugStringConvertibleP", "setCurrentDelegate"]
+- ["s28CustomDebugStringConvertibleP", "setForwardToDelegate"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "assignProxy"]
+- ["s23CustomStringConvertibleP", "assignedProxyFor"]
+- !private ["s23CustomStringConvertibleP", "castOptionalOrFatalError"]
+- !private ["s23CustomStringConvertibleP", "castOrFatalError"]
+- ["s23CustomStringConvertibleP", "createProxyForObject"]
+- !private ["s23CustomStringConvertibleP", "createRxDelegateProxy"]
+- ["s23CustomStringConvertibleP", "currentDelegateFor"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- ["s23CustomStringConvertibleP", "forwardToDelegate"]
+- ["s23CustomStringConvertibleP", "imagePickerController"]
+- ["s23CustomStringConvertibleP", "imagePickerControllerDidCancel"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "navigationController"]
+- ["s23CustomStringConvertibleP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["s23CustomStringConvertibleP", "navigationControllerSupportedInterfaceOrientations"]
+- ["s23CustomStringConvertibleP", "setCurrentDelegate"]
+- ["s23CustomStringConvertibleP", "setForwardToDelegate"]
+- ["s23CustomStringConvertibleP", ""]
+- ["7RxCocoa13DelegateProxyC", "AnyObject"]
+- !private ["7RxCocoa13DelegateProxyC", "UINavigationController"]
+- ["7RxCocoa13DelegateProxyC", "assignProxy"]
+- ["7RxCocoa13DelegateProxyC", "assignedProxyFor"]
+- !private ["7RxCocoa13DelegateProxyC", "castOptionalOrFatalError"]
+- !private ["7RxCocoa13DelegateProxyC", "castOrFatalError"]
+- ["7RxCocoa13DelegateProxyC", "createProxyForObject"]
+- ["7RxCocoa13DelegateProxyC", "currentDelegateFor"]
+- ["7RxCocoa13DelegateProxyC", "forwardToDelegate"]
+- ["7RxCocoa13DelegateProxyC", "imagePickerController"]
+- ["7RxCocoa13DelegateProxyC", "imagePickerControllerDidCancel"]
+- ["7RxCocoa13DelegateProxyC", "init"]
+- ["7RxCocoa13DelegateProxyC", "navigationController"]
+- ["7RxCocoa13DelegateProxyC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["7RxCocoa13DelegateProxyC", "navigationControllerSupportedInterfaceOrientations"]
+- ["7RxCocoa13DelegateProxyC", "setCurrentDelegate"]
+- ["7RxCocoa13DelegateProxyC", "setForwardToDelegate"]
+- ["7RxCocoa13DelegateProxyC", ""]
+- ["7RxCocoa17DelegateProxyTypeP", "assignProxy"]
+- ["7RxCocoa17DelegateProxyTypeP", "assignedProxyFor"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "castOptionalOrFatalError"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "castOrFatalError"]
+- ["7RxCocoa17DelegateProxyTypeP", "createProxyForObject"]
+- ["7RxCocoa17DelegateProxyTypeP", "currentDelegateFor"]
+- ["7RxCocoa17DelegateProxyTypeP", "forwardToDelegate"]
+- ["7RxCocoa17DelegateProxyTypeP", "imagePickerController"]
+- ["7RxCocoa17DelegateProxyTypeP", "imagePickerControllerDidCancel"]
+- ["7RxCocoa17DelegateProxyTypeP", "navigationController"]
+- ["7RxCocoa17DelegateProxyTypeP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["7RxCocoa17DelegateProxyTypeP", "navigationControllerSupportedInterfaceOrientations"]
+- ["7RxCocoa17DelegateProxyTypeP", "setCurrentDelegate"]
+- ["7RxCocoa17DelegateProxyTypeP", "setForwardToDelegate"]
+- ["7RxCocoa17DelegateProxyTypeP", ""]
+- ["s9EquatableP", "assignProxy"]
+- ["s9EquatableP", "assignedProxyFor"]
+- !private ["s9EquatableP", "castOptionalOrFatalError"]
+- !private ["s9EquatableP", "castOrFatalError"]
+- ["s9EquatableP", "createProxyForObject"]
+- !private ["s9EquatableP", "createRxDelegateProxy"]
+- ["s9EquatableP", "currentDelegateFor"]
+- !private ["s9EquatableP", "delegate"]
+- ["s9EquatableP", "forwardToDelegate"]
+- ["s9EquatableP", "imagePickerController"]
+- ["s9EquatableP", "imagePickerControllerDidCancel"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "navigationController"]
+- ["s9EquatableP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["s9EquatableP", "navigationControllerSupportedInterfaceOrientations"]
+- ["s9EquatableP", "setCurrentDelegate"]
+- ["s9EquatableP", "setForwardToDelegate"]
+- ["s9EquatableP", ""]
+- ["s8HashableP", "assignProxy"]
+- ["s8HashableP", "assignedProxyFor"]
+- !private ["s8HashableP", "castOptionalOrFatalError"]
+- !private ["s8HashableP", "castOrFatalError"]
+- ["s8HashableP", "createProxyForObject"]
+- !private ["s8HashableP", "createRxDelegateProxy"]
+- ["s8HashableP", "currentDelegateFor"]
+- !private ["s8HashableP", "delegate"]
+- ["s8HashableP", "forwardToDelegate"]
+- ["s8HashableP", "imagePickerController"]
+- ["s8HashableP", "imagePickerControllerDidCancel"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "navigationController"]
+- ["s8HashableP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["s8HashableP", "navigationControllerSupportedInterfaceOrientations"]
+- ["s8HashableP", "setCurrentDelegate"]
+- ["s8HashableP", "setForwardToDelegate"]
+- ["s8HashableP", ""]
+- !private ["So8NSCodingP", "createRxDelegateProxy"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So26NSExtensionRequestHandlingP", "createRxDelegateProxy"]
+- !private ["So26NSExtensionRequestHandlingP", "delegate"]
+- ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "UINavigationController"]
+- ["So8NSObjectC", "assignProxy"]
+- ["So8NSObjectC", "assignedProxyFor"]
+- !private ["So8NSObjectC", "castOptionalOrFatalError"]
+- !private ["So8NSObjectC", "castOrFatalError"]
+- ["So8NSObjectC", "createProxyForObject"]
+- !private ["So8NSObjectC", "createRxDelegateProxy"]
+- ["So8NSObjectC", "currentDelegateFor"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "forwardToDelegate"]
+- ["So8NSObjectC", "imagePickerController"]
+- ["So8NSObjectC", "imagePickerControllerDidCancel"]
+- ["So8NSObjectC", "navigationController"]
+- ["So8NSObjectC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So8NSObjectC", "navigationControllerSupportedInterfaceOrientations"]
+- ["So8NSObjectC", "setCurrentDelegate"]
+- ["So8NSObjectC", "setForwardToDelegate"]
+- ["So16NSObjectProtocolP", "assignProxy"]
+- ["So16NSObjectProtocolP", "assignedProxyFor"]
+- !private ["So16NSObjectProtocolP", "castOptionalOrFatalError"]
+- !private ["So16NSObjectProtocolP", "castOrFatalError"]
+- ["So16NSObjectProtocolP", "createProxyForObject"]
+- !private ["So16NSObjectProtocolP", "createRxDelegateProxy"]
+- ["So16NSObjectProtocolP", "currentDelegateFor"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- ["So16NSObjectProtocolP", "forwardToDelegate"]
+- ["So16NSObjectProtocolP", "imagePickerController"]
+- ["So16NSObjectProtocolP", "imagePickerControllerDidCancel"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "navigationController"]
+- ["So16NSObjectProtocolP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So16NSObjectProtocolP", "navigationControllerSupportedInterfaceOrientations"]
+- ["So16NSObjectProtocolP", "setCurrentDelegate"]
+- ["So16NSObjectProtocolP", "setForwardToDelegate"]
+- ["So16NSObjectProtocolP", ""]
+- ["7RxSwift18ReactiveCompatibleP", "assignProxy"]
+- ["7RxSwift18ReactiveCompatibleP", "assignedProxyFor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "castOptionalOrFatalError"]
+- !private ["7RxSwift18ReactiveCompatibleP", "castOrFatalError"]
+- ["7RxSwift18ReactiveCompatibleP", "createProxyForObject"]
+- !private ["7RxSwift18ReactiveCompatibleP", "createRxDelegateProxy"]
+- ["7RxSwift18ReactiveCompatibleP", "currentDelegateFor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "delegate"]
+- ["7RxSwift18ReactiveCompatibleP", "forwardToDelegate"]
+- ["7RxSwift18ReactiveCompatibleP", "imagePickerController"]
+- ["7RxSwift18ReactiveCompatibleP", "imagePickerControllerDidCancel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- ["7RxSwift18ReactiveCompatibleP", "navigationController"]
+- ["7RxSwift18ReactiveCompatibleP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["7RxSwift18ReactiveCompatibleP", "navigationControllerSupportedInterfaceOrientations"]
+- ["7RxSwift18ReactiveCompatibleP", "setCurrentDelegate"]
+- ["7RxSwift18ReactiveCompatibleP", "setForwardToDelegate"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- ["7RxCocoa0A33NavigationControllerDelegateProxyC", "AnyObject"]
+- !private ["7RxCocoa0A33NavigationControllerDelegateProxyC", "UINavigationController"]
+- ["7RxCocoa0A33NavigationControllerDelegateProxyC", "assignProxy"]
+- ["7RxCocoa0A33NavigationControllerDelegateProxyC", "assignedProxyFor"]
+- !private ["7RxCocoa0A33NavigationControllerDelegateProxyC", "castOptionalOrFatalError"]
+- !private ["7RxCocoa0A33NavigationControllerDelegateProxyC", "castOrFatalError"]
+- ["7RxCocoa0A33NavigationControllerDelegateProxyC", "createProxyForObject"]
+- ["7RxCocoa0A33NavigationControllerDelegateProxyC", "currentDelegateFor"]
+- ["7RxCocoa0A33NavigationControllerDelegateProxyC", "deinit"]
+- ["7RxCocoa0A33NavigationControllerDelegateProxyC", "forwardToDelegate"]
+- ["7RxCocoa0A33NavigationControllerDelegateProxyC", "imagePickerController"]
+- ["7RxCocoa0A33NavigationControllerDelegateProxyC", "imagePickerControllerDidCancel"]
+- ["7RxCocoa0A33NavigationControllerDelegateProxyC", "init"]
+- ["7RxCocoa0A33NavigationControllerDelegateProxyC", "navigationController"]
+- ["7RxCocoa0A33NavigationControllerDelegateProxyC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["7RxCocoa0A33NavigationControllerDelegateProxyC", "navigationControllerSupportedInterfaceOrientations"]
+- ["7RxCocoa0A33NavigationControllerDelegateProxyC", "setCurrentDelegate"]
+- ["7RxCocoa0A33NavigationControllerDelegateProxyC", "setForwardToDelegate"]
+- !private ["So21UIAppearanceContainerP", "createRxDelegateProxy"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So18UIContentContainerP", "createRxDelegateProxy"]
+- !private ["So18UIContentContainerP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "createRxDelegateProxy"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- ["So31UIImagePickerControllerDelegateP", "assignProxy"]
+- ["So31UIImagePickerControllerDelegateP", "assignedProxyFor"]
+- !private ["So31UIImagePickerControllerDelegateP", "castOptionalOrFatalError"]
+- !private ["So31UIImagePickerControllerDelegateP", "castOrFatalError"]
+- ["So31UIImagePickerControllerDelegateP", "createProxyForObject"]
+- ["So31UIImagePickerControllerDelegateP", "currentDelegateFor"]
+- ["So31UIImagePickerControllerDelegateP", "forwardToDelegate"]
+- ["So31UIImagePickerControllerDelegateP", "imagePickerController"]
+- ["So31UIImagePickerControllerDelegateP", "imagePickerControllerDidCancel"]
+- ["So31UIImagePickerControllerDelegateP", "navigationController"]
+- ["So31UIImagePickerControllerDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So31UIImagePickerControllerDelegateP", "navigationControllerSupportedInterfaceOrientations"]
+- ["So31UIImagePickerControllerDelegateP", "setCurrentDelegate"]
+- ["So31UIImagePickerControllerDelegateP", "setForwardToDelegate"]
+- ["So31UIImagePickerControllerDelegateP", ""]
+- !private ["So22UINavigationControllerC", "createRxDelegateProxy"]
+- !private ["So22UINavigationControllerC", "delegate"]
+- ["So30UINavigationControllerDelegateP", "assignProxy"]
+- ["So30UINavigationControllerDelegateP", "assignedProxyFor"]
+- !private ["So30UINavigationControllerDelegateP", "castOptionalOrFatalError"]
+- !private ["So30UINavigationControllerDelegateP", "castOrFatalError"]
+- ["So30UINavigationControllerDelegateP", "createProxyForObject"]
+- ["So30UINavigationControllerDelegateP", "currentDelegateFor"]
+- ["So30UINavigationControllerDelegateP", "forwardToDelegate"]
+- ["So30UINavigationControllerDelegateP", "imagePickerController"]
+- ["So30UINavigationControllerDelegateP", "imagePickerControllerDidCancel"]
+- ["So30UINavigationControllerDelegateP", "navigationController"]
+- ["So30UINavigationControllerDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So30UINavigationControllerDelegateP", "navigationControllerSupportedInterfaceOrientations"]
+- ["So30UINavigationControllerDelegateP", "setCurrentDelegate"]
+- ["So30UINavigationControllerDelegateP", "setForwardToDelegate"]
+- ["So30UINavigationControllerDelegateP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "createRxDelegateProxy"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So11UIResponderC", "createRxDelegateProxy"]
+- !private ["So11UIResponderC", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "createRxDelegateProxy"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So16UIStateRestoringP", "createRxDelegateProxy"]
+- !private ["So16UIStateRestoringP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "createRxDelegateProxy"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So16UIViewControllerC", "createRxDelegateProxy"]
+- !private ["So16UIViewControllerC", "delegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "assignProxy"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "assignedProxyFor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "castOptionalOrFatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "castOrFatalError"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "createProxyForObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createRxDelegateProxy"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "currentDelegateFor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "forwardToDelegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "imagePickerController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "imagePickerControllerDidCancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "navigationControllerSupportedInterfaceOrientations"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "setCurrentDelegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "setForwardToDelegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["So16_RXDelegateProxyC", "AnyObject"]
+- !private ["So16_RXDelegateProxyC", "UINavigationController"]
+- ["So16_RXDelegateProxyC", "assignProxy"]
+- ["So16_RXDelegateProxyC", "assignedProxyFor"]
+- !private ["So16_RXDelegateProxyC", "castOptionalOrFatalError"]
+- !private ["So16_RXDelegateProxyC", "castOrFatalError"]
+- ["So16_RXDelegateProxyC", "createProxyForObject"]
+- ["So16_RXDelegateProxyC", "currentDelegateFor"]
+- ["So16_RXDelegateProxyC", "forwardToDelegate"]
+- ["So16_RXDelegateProxyC", "imagePickerController"]
+- ["So16_RXDelegateProxyC", "imagePickerControllerDidCancel"]
+- ["So16_RXDelegateProxyC", "navigationController"]
+- ["So16_RXDelegateProxyC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So16_RXDelegateProxyC", "navigationControllerSupportedInterfaceOrientations"]
+- ["So16_RXDelegateProxyC", "setCurrentDelegate"]
+- ["So16_RXDelegateProxyC", "setForwardToDelegate"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "7RxCocoa13DelegateProxyC"
+- "7RxCocoa17DelegateProxyTypeP"
+- "s9EquatableP"
+- "s8HashableP"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "7RxSwift18ReactiveCompatibleP"
+- "7RxCocoa0A33NavigationControllerDelegateProxyC"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- "So31UIImagePickerControllerDelegateP"
+- !private "So22UINavigationControllerC"
+- "So30UINavigationControllerDelegateP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So16UIViewControllerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "So16_RXDelegateProxyC"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/martyn/Development/AppCoordinatorsLearning/DerivedData/AppCoordinatorsLearning/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/DerivedData/AppCoordinatorsLearning/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/DerivedData/AppCoordinatorsLearning/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Users/martyn/Development/AppCoordinatorsLearning/DerivedData/AppCoordinatorsLearning/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/usr/include/Darwin.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "ba44d5656f6cb40edde0017db064e7f6"

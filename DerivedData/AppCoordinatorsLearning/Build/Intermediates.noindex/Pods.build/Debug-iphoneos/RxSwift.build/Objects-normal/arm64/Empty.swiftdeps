@@ -1,0 +1,73 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["7RxSwift10ObservableC", ""]
+- ["7RxSwift10ObservableC", "empty"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Disposable"
+- !private "Disposables"
+- !private "EmptyProducer"
+- "Observable"
+- !private "ObserverType"
+- !private "Producer"
+depends-member:
+- !private ["s28CustomDebugStringConvertibleP", "completed"]
+- !private ["7RxSwift11DisposablesV", "create"]
+- !private ["7RxSwift5EventO", "completed"]
+- !private ["7RxSwift16EventConvertibleP", "completed"]
+- ["7RxSwift10ObservableC", "Disposable"]
+- !private ["7RxSwift10ObservableC", "Disposables"]
+- ["7RxSwift10ObservableC", "E"]
+- !private ["7RxSwift10ObservableC", "Element"]
+- !private ["7RxSwift10ObservableC", "EmptyProducer"]
+- ["7RxSwift10ObservableC", "Observable"]
+- !private ["7RxSwift10ObservableC", "ObserverType"]
+- ["7RxSwift10ObservableC", "empty"]
+- !private ["7RxSwift10ObservableC", "init"]
+- !private ["7RxSwift10ObservableC", "subscribe"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "Disposables"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "EmptyProducer"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "init"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", ""]
+- !private ["7RxSwift14ObservableTypeP", "Disposables"]
+- !private ["7RxSwift14ObservableTypeP", "EmptyProducer"]
+- !private ["7RxSwift14ObservableTypeP", "init"]
+- !private ["7RxSwift14ObservableTypeP", ""]
+- !private ["7RxSwift12ObserverTypeP", "on"]
+- ["7RxSwift8ProducerC", "Disposable"]
+- !private ["7RxSwift8ProducerC", "Disposables"]
+- !private ["7RxSwift8ProducerC", "Element"]
+- !private ["7RxSwift8ProducerC", "ObserverType"]
+- !private ["7RxSwift8ProducerC", "init"]
+- !private ["7RxSwift8ProducerC", "subscribe"]
+- !private ["7RxSwift8ProducerC", ""]
+depends-nominal:
+- !private "s28CustomDebugStringConvertibleP"
+- !private "7RxSwift11DisposablesV"
+- !private "7RxSwift5EventO"
+- !private "7RxSwift16EventConvertibleP"
+- "7RxSwift10ObservableC"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "7RxSwift14ObservableTypeP"
+- !private "7RxSwift12ObserverTypeP"
+- "7RxSwift8ProducerC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/DerivedData/AppCoordinatorsLearning/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/RxSwift.build/unextended-module.modulemap"
+interface-hash: "b479c2180a3269d6167af0393ff6945f"

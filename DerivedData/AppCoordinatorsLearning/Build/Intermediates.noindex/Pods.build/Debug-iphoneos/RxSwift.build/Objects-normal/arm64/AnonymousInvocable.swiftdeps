@@ -1,0 +1,41 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AnonymousInvocable"
+provides-nominal:
+- "7RxSwift18AnonymousInvocableV"
+provides-member:
+- ["7RxSwift18AnonymousInvocableV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnonymousInvocable"
+- "AssignmentPrecedence"
+- "InvocableType"
+depends-member:
+- !private ["7RxSwift18AnonymousInvocableV", "_action"]
+- ["7RxSwift18AnonymousInvocableV", "deinit"]
+- ["7RxSwift18AnonymousInvocableV", "init"]
+- ["7RxSwift18AnonymousInvocableV", "invoke"]
+- !private ["7RxSwift13InvocableTypeP", "_action"]
+- ["7RxSwift13InvocableTypeP", "invoke"]
+- ["7RxSwift13InvocableTypeP", ""]
+depends-nominal:
+- "7RxSwift18AnonymousInvocableV"
+- "7RxSwift13InvocableTypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/DerivedData/AppCoordinatorsLearning/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/RxSwift.build/unextended-module.modulemap"
+interface-hash: "b136a6a182b9d9556475e8cc66c722b3"

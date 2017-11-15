@@ -1,0 +1,416 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxPickerViewDataSourceProxy"
+provides-nominal:
+- "7RxCocoa0A25PickerViewDataSourceProxyC"
+provides-member:
+- ["7RxCocoa0A25PickerViewDataSourceProxyC", ""]
+provides-dynamic-lookup:
+- "createProxyForObject"
+- "currentDelegateFor"
+- "delegateAssociatedObjectTag"
+- "numberOfComponents"
+- "pickerView"
+- "setCurrentDelegate"
+- "setForwardToDelegate"
+depends-top-level:
+- !private "??"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- "DelegateProxy"
+- "DelegateProxyType"
+- "Int"
+- !private "NSObject"
+- "PickerViewDataSourceNotSet"
+- "RxPickerViewDataSourceProxy"
+- "UIPickerView"
+- "UIPickerViewDataSource"
+- "UnsafeRawPointer"
+- !private "castOptionalOrFatalError"
+- !private "castOrFatalError"
+- !private "dataSourceAssociatedTag"
+- "pickerViewDataSourceNotSet"
+depends-member:
+- !private ["So15CALayerDelegateP", "createRxDataSourceProxy"]
+- !private ["So15CALayerDelegateP", "dataSource"]
+- !private ["s7CVarArgP", "_requiredMethodsDataSource"]
+- ["s7CVarArgP", "assignProxy"]
+- ["s7CVarArgP", "assignedProxyFor"]
+- !private ["s7CVarArgP", "castOptionalOrFatalError"]
+- !private ["s7CVarArgP", "castOrFatalError"]
+- ["s7CVarArgP", "createProxyForObject"]
+- !private ["s7CVarArgP", "createRxDataSourceProxy"]
+- ["s7CVarArgP", "currentDelegateFor"]
+- !private ["s7CVarArgP", "dataSource"]
+- !private ["s7CVarArgP", "dataSourceAssociatedTag"]
+- ["s7CVarArgP", "forwardToDelegate"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "numberOfComponents"]
+- ["s7CVarArgP", "numberOfComponentsInPickerView"]
+- ["s7CVarArgP", "pickerView"]
+- ["s7CVarArgP", "pickerViewDataSourceNotSet"]
+- ["s7CVarArgP", "setCurrentDelegate"]
+- ["s7CVarArgP", "setForwardToDelegate"]
+- ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_requiredMethodsDataSource"]
+- ["s28CustomDebugStringConvertibleP", "assignProxy"]
+- ["s28CustomDebugStringConvertibleP", "assignedProxyFor"]
+- !private ["s28CustomDebugStringConvertibleP", "castOptionalOrFatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "castOrFatalError"]
+- ["s28CustomDebugStringConvertibleP", "createProxyForObject"]
+- !private ["s28CustomDebugStringConvertibleP", "createRxDataSourceProxy"]
+- ["s28CustomDebugStringConvertibleP", "currentDelegateFor"]
+- !private ["s28CustomDebugStringConvertibleP", "dataSource"]
+- !private ["s28CustomDebugStringConvertibleP", "dataSourceAssociatedTag"]
+- ["s28CustomDebugStringConvertibleP", "forwardToDelegate"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "numberOfComponents"]
+- ["s28CustomDebugStringConvertibleP", "numberOfComponentsInPickerView"]
+- ["s28CustomDebugStringConvertibleP", "pickerView"]
+- ["s28CustomDebugStringConvertibleP", "pickerViewDataSourceNotSet"]
+- ["s28CustomDebugStringConvertibleP", "setCurrentDelegate"]
+- ["s28CustomDebugStringConvertibleP", "setForwardToDelegate"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_requiredMethodsDataSource"]
+- ["s23CustomStringConvertibleP", "assignProxy"]
+- ["s23CustomStringConvertibleP", "assignedProxyFor"]
+- !private ["s23CustomStringConvertibleP", "castOptionalOrFatalError"]
+- !private ["s23CustomStringConvertibleP", "castOrFatalError"]
+- ["s23CustomStringConvertibleP", "createProxyForObject"]
+- !private ["s23CustomStringConvertibleP", "createRxDataSourceProxy"]
+- ["s23CustomStringConvertibleP", "currentDelegateFor"]
+- !private ["s23CustomStringConvertibleP", "dataSource"]
+- !private ["s23CustomStringConvertibleP", "dataSourceAssociatedTag"]
+- ["s23CustomStringConvertibleP", "forwardToDelegate"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "numberOfComponents"]
+- ["s23CustomStringConvertibleP", "numberOfComponentsInPickerView"]
+- ["s23CustomStringConvertibleP", "pickerView"]
+- ["s23CustomStringConvertibleP", "pickerViewDataSourceNotSet"]
+- ["s23CustomStringConvertibleP", "setCurrentDelegate"]
+- ["s23CustomStringConvertibleP", "setForwardToDelegate"]
+- ["s23CustomStringConvertibleP", ""]
+- ["7RxCocoa13DelegateProxyC", "AnyObject"]
+- ["7RxCocoa13DelegateProxyC", "Bool"]
+- ["7RxCocoa13DelegateProxyC", "Int"]
+- ["7RxCocoa13DelegateProxyC", "UIPickerView"]
+- ["7RxCocoa13DelegateProxyC", "UIPickerViewDataSource"]
+- ["7RxCocoa13DelegateProxyC", "UnsafeRawPointer"]
+- ["7RxCocoa13DelegateProxyC", "_requiredMethodsDataSource"]
+- ["7RxCocoa13DelegateProxyC", "assignProxy"]
+- ["7RxCocoa13DelegateProxyC", "assignedProxyFor"]
+- !private ["7RxCocoa13DelegateProxyC", "castOptionalOrFatalError"]
+- !private ["7RxCocoa13DelegateProxyC", "castOrFatalError"]
+- ["7RxCocoa13DelegateProxyC", "createProxyForObject"]
+- ["7RxCocoa13DelegateProxyC", "currentDelegateFor"]
+- !private ["7RxCocoa13DelegateProxyC", "dataSourceAssociatedTag"]
+- ["7RxCocoa13DelegateProxyC", "delegateAssociatedObjectTag"]
+- ["7RxCocoa13DelegateProxyC", "forwardToDelegate"]
+- ["7RxCocoa13DelegateProxyC", "init"]
+- ["7RxCocoa13DelegateProxyC", "numberOfComponents"]
+- ["7RxCocoa13DelegateProxyC", "numberOfComponentsInPickerView"]
+- ["7RxCocoa13DelegateProxyC", "pickerView"]
+- ["7RxCocoa13DelegateProxyC", "pickerViewDataSourceNotSet"]
+- ["7RxCocoa13DelegateProxyC", "setCurrentDelegate"]
+- ["7RxCocoa13DelegateProxyC", "setForwardToDelegate"]
+- ["7RxCocoa13DelegateProxyC", ""]
+- !private ["7RxCocoa17DelegateProxyTypeP", "_requiredMethodsDataSource"]
+- ["7RxCocoa17DelegateProxyTypeP", "assignProxy"]
+- ["7RxCocoa17DelegateProxyTypeP", "assignedProxyFor"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "castOptionalOrFatalError"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "castOrFatalError"]
+- ["7RxCocoa17DelegateProxyTypeP", "createProxyForObject"]
+- ["7RxCocoa17DelegateProxyTypeP", "currentDelegateFor"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "dataSourceAssociatedTag"]
+- ["7RxCocoa17DelegateProxyTypeP", "forwardToDelegate"]
+- ["7RxCocoa17DelegateProxyTypeP", "numberOfComponents"]
+- ["7RxCocoa17DelegateProxyTypeP", "numberOfComponentsInPickerView"]
+- ["7RxCocoa17DelegateProxyTypeP", "pickerView"]
+- ["7RxCocoa17DelegateProxyTypeP", "pickerViewDataSourceNotSet"]
+- ["7RxCocoa17DelegateProxyTypeP", "setCurrentDelegate"]
+- ["7RxCocoa17DelegateProxyTypeP", "setForwardToDelegate"]
+- ["7RxCocoa17DelegateProxyTypeP", ""]
+- !private ["s9EquatableP", "_requiredMethodsDataSource"]
+- ["s9EquatableP", "assignProxy"]
+- ["s9EquatableP", "assignedProxyFor"]
+- !private ["s9EquatableP", "castOptionalOrFatalError"]
+- !private ["s9EquatableP", "castOrFatalError"]
+- ["s9EquatableP", "createProxyForObject"]
+- !private ["s9EquatableP", "createRxDataSourceProxy"]
+- ["s9EquatableP", "currentDelegateFor"]
+- !private ["s9EquatableP", "dataSource"]
+- !private ["s9EquatableP", "dataSourceAssociatedTag"]
+- ["s9EquatableP", "forwardToDelegate"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "numberOfComponents"]
+- ["s9EquatableP", "numberOfComponentsInPickerView"]
+- ["s9EquatableP", "pickerView"]
+- ["s9EquatableP", "pickerViewDataSourceNotSet"]
+- ["s9EquatableP", "setCurrentDelegate"]
+- ["s9EquatableP", "setForwardToDelegate"]
+- ["s9EquatableP", ""]
+- !private ["s8HashableP", "_requiredMethodsDataSource"]
+- ["s8HashableP", "assignProxy"]
+- ["s8HashableP", "assignedProxyFor"]
+- !private ["s8HashableP", "castOptionalOrFatalError"]
+- !private ["s8HashableP", "castOrFatalError"]
+- ["s8HashableP", "createProxyForObject"]
+- !private ["s8HashableP", "createRxDataSourceProxy"]
+- ["s8HashableP", "currentDelegateFor"]
+- !private ["s8HashableP", "dataSource"]
+- !private ["s8HashableP", "dataSourceAssociatedTag"]
+- ["s8HashableP", "forwardToDelegate"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "numberOfComponents"]
+- ["s8HashableP", "numberOfComponentsInPickerView"]
+- ["s8HashableP", "pickerView"]
+- ["s8HashableP", "pickerViewDataSourceNotSet"]
+- ["s8HashableP", "setCurrentDelegate"]
+- ["s8HashableP", "setForwardToDelegate"]
+- ["s8HashableP", ""]
+- !private ["So8NSCodingP", "createRxDataSourceProxy"]
+- !private ["So8NSCodingP", "dataSource"]
+- ["So8NSObjectC", "AnyObject"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "UIPickerView"]
+- ["So8NSObjectC", "UIPickerViewDataSource"]
+- ["So8NSObjectC", "UnsafeRawPointer"]
+- ["So8NSObjectC", "_requiredMethodsDataSource"]
+- ["So8NSObjectC", "assignProxy"]
+- ["So8NSObjectC", "assignedProxyFor"]
+- !private ["So8NSObjectC", "castOptionalOrFatalError"]
+- !private ["So8NSObjectC", "castOrFatalError"]
+- ["So8NSObjectC", "createProxyForObject"]
+- !private ["So8NSObjectC", "createRxDataSourceProxy"]
+- ["So8NSObjectC", "currentDelegateFor"]
+- !private ["So8NSObjectC", "dataSource"]
+- !private ["So8NSObjectC", "dataSourceAssociatedTag"]
+- ["So8NSObjectC", "delegateAssociatedObjectTag"]
+- ["So8NSObjectC", "forwardToDelegate"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "numberOfComponents"]
+- ["So8NSObjectC", "numberOfComponentsInPickerView"]
+- ["So8NSObjectC", "pickerView"]
+- ["So8NSObjectC", "pickerViewDataSourceNotSet"]
+- ["So8NSObjectC", "setCurrentDelegate"]
+- ["So8NSObjectC", "setForwardToDelegate"]
+- !private ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "_requiredMethodsDataSource"]
+- ["So16NSObjectProtocolP", "assignProxy"]
+- ["So16NSObjectProtocolP", "assignedProxyFor"]
+- !private ["So16NSObjectProtocolP", "castOptionalOrFatalError"]
+- !private ["So16NSObjectProtocolP", "castOrFatalError"]
+- ["So16NSObjectProtocolP", "createProxyForObject"]
+- !private ["So16NSObjectProtocolP", "createRxDataSourceProxy"]
+- ["So16NSObjectProtocolP", "currentDelegateFor"]
+- !private ["So16NSObjectProtocolP", "dataSource"]
+- !private ["So16NSObjectProtocolP", "dataSourceAssociatedTag"]
+- ["So16NSObjectProtocolP", "forwardToDelegate"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "numberOfComponents"]
+- ["So16NSObjectProtocolP", "numberOfComponentsInPickerView"]
+- ["So16NSObjectProtocolP", "pickerView"]
+- ["So16NSObjectProtocolP", "pickerViewDataSourceNotSet"]
+- ["So16NSObjectProtocolP", "setCurrentDelegate"]
+- ["So16NSObjectProtocolP", "setForwardToDelegate"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "_requiredMethodsDataSource"]
+- ["7RxSwift18ReactiveCompatibleP", "assignProxy"]
+- ["7RxSwift18ReactiveCompatibleP", "assignedProxyFor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "castOptionalOrFatalError"]
+- !private ["7RxSwift18ReactiveCompatibleP", "castOrFatalError"]
+- ["7RxSwift18ReactiveCompatibleP", "createProxyForObject"]
+- !private ["7RxSwift18ReactiveCompatibleP", "createRxDataSourceProxy"]
+- ["7RxSwift18ReactiveCompatibleP", "currentDelegateFor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "dataSource"]
+- !private ["7RxSwift18ReactiveCompatibleP", "dataSourceAssociatedTag"]
+- ["7RxSwift18ReactiveCompatibleP", "forwardToDelegate"]
+- ["7RxSwift18ReactiveCompatibleP", "init"]
+- ["7RxSwift18ReactiveCompatibleP", "numberOfComponents"]
+- ["7RxSwift18ReactiveCompatibleP", "numberOfComponentsInPickerView"]
+- ["7RxSwift18ReactiveCompatibleP", "pickerView"]
+- ["7RxSwift18ReactiveCompatibleP", "pickerViewDataSourceNotSet"]
+- ["7RxSwift18ReactiveCompatibleP", "setCurrentDelegate"]
+- ["7RxSwift18ReactiveCompatibleP", "setForwardToDelegate"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- ["7RxCocoa0A25PickerViewDataSourceProxyC", "AnyObject"]
+- ["7RxCocoa0A25PickerViewDataSourceProxyC", "Bool"]
+- ["7RxCocoa0A25PickerViewDataSourceProxyC", "Int"]
+- ["7RxCocoa0A25PickerViewDataSourceProxyC", "UIPickerView"]
+- ["7RxCocoa0A25PickerViewDataSourceProxyC", "UIPickerViewDataSource"]
+- ["7RxCocoa0A25PickerViewDataSourceProxyC", "UnsafeRawPointer"]
+- !private ["7RxCocoa0A25PickerViewDataSourceProxyC", "_requiredMethodsDataSource"]
+- ["7RxCocoa0A25PickerViewDataSourceProxyC", "assignProxy"]
+- ["7RxCocoa0A25PickerViewDataSourceProxyC", "assignedProxyFor"]
+- !private ["7RxCocoa0A25PickerViewDataSourceProxyC", "castOptionalOrFatalError"]
+- !private ["7RxCocoa0A25PickerViewDataSourceProxyC", "castOrFatalError"]
+- ["7RxCocoa0A25PickerViewDataSourceProxyC", "createProxyForObject"]
+- ["7RxCocoa0A25PickerViewDataSourceProxyC", "currentDelegateFor"]
+- !private ["7RxCocoa0A25PickerViewDataSourceProxyC", "dataSourceAssociatedTag"]
+- ["7RxCocoa0A25PickerViewDataSourceProxyC", "deinit"]
+- ["7RxCocoa0A25PickerViewDataSourceProxyC", "delegateAssociatedObjectTag"]
+- ["7RxCocoa0A25PickerViewDataSourceProxyC", "forwardToDelegate"]
+- ["7RxCocoa0A25PickerViewDataSourceProxyC", "init"]
+- ["7RxCocoa0A25PickerViewDataSourceProxyC", "numberOfComponents"]
+- ["7RxCocoa0A25PickerViewDataSourceProxyC", "numberOfComponentsInPickerView"]
+- ["7RxCocoa0A25PickerViewDataSourceProxyC", "pickerView"]
+- ["7RxCocoa0A25PickerViewDataSourceProxyC", "pickerViewDataSourceNotSet"]
+- ["7RxCocoa0A25PickerViewDataSourceProxyC", "setCurrentDelegate"]
+- ["7RxCocoa0A25PickerViewDataSourceProxyC", "setForwardToDelegate"]
+- !private ["So29UIAccessibilityIdentificationP", "createRxDataSourceProxy"]
+- !private ["So29UIAccessibilityIdentificationP", "dataSource"]
+- !private ["So12UIAppearanceP", "createRxDataSourceProxy"]
+- !private ["So12UIAppearanceP", "dataSource"]
+- !private ["So21UIAppearanceContainerP", "createRxDataSourceProxy"]
+- !private ["So21UIAppearanceContainerP", "dataSource"]
+- !private ["So17UICoordinateSpaceP", "createRxDataSourceProxy"]
+- !private ["So17UICoordinateSpaceP", "dataSource"]
+- !private ["So13UIDynamicItemP", "createRxDataSourceProxy"]
+- !private ["So13UIDynamicItemP", "dataSource"]
+- !private ["So18UIFocusEnvironmentP", "createRxDataSourceProxy"]
+- !private ["So18UIFocusEnvironmentP", "dataSource"]
+- !private ["So11UIFocusItemP", "createRxDataSourceProxy"]
+- !private ["So11UIFocusItemP", "dataSource"]
+- !private ["So30UIPasteConfigurationSupportingP", "createRxDataSourceProxy"]
+- !private ["So30UIPasteConfigurationSupportingP", "dataSource"]
+- !private ["So12UIPickerViewC", "createRxDataSourceProxy"]
+- !private ["So12UIPickerViewC", "dataSource"]
+- !private ["So22UIPickerViewDataSourceP", "_requiredMethodsDataSource"]
+- ["So22UIPickerViewDataSourceP", "assignProxy"]
+- ["So22UIPickerViewDataSourceP", "assignedProxyFor"]
+- !private ["So22UIPickerViewDataSourceP", "castOptionalOrFatalError"]
+- !private ["So22UIPickerViewDataSourceP", "castOrFatalError"]
+- ["So22UIPickerViewDataSourceP", "createProxyForObject"]
+- ["So22UIPickerViewDataSourceP", "currentDelegateFor"]
+- !private ["So22UIPickerViewDataSourceP", "dataSourceAssociatedTag"]
+- ["So22UIPickerViewDataSourceP", "forwardToDelegate"]
+- ["So22UIPickerViewDataSourceP", "init"]
+- ["So22UIPickerViewDataSourceP", "numberOfComponents"]
+- ["So22UIPickerViewDataSourceP", "numberOfComponentsInPickerView"]
+- ["So22UIPickerViewDataSourceP", "pickerView"]
+- ["So22UIPickerViewDataSourceP", "pickerViewDataSourceNotSet"]
+- ["So22UIPickerViewDataSourceP", "setCurrentDelegate"]
+- ["So22UIPickerViewDataSourceP", "setForwardToDelegate"]
+- ["So22UIPickerViewDataSourceP", ""]
+- !private ["So11UIResponderC", "createRxDataSourceProxy"]
+- !private ["So11UIResponderC", "dataSource"]
+- !private ["So30UIResponderStandardEditActionsP", "createRxDataSourceProxy"]
+- !private ["So30UIResponderStandardEditActionsP", "dataSource"]
+- !private ["So18UITraitEnvironmentP", "createRxDataSourceProxy"]
+- !private ["So18UITraitEnvironmentP", "dataSource"]
+- !private ["So6UIViewC", "createRxDataSourceProxy"]
+- !private ["So6UIViewC", "dataSource"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "createRxDataSourceProxy"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dataSource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_requiredMethodsDataSource"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "assignProxy"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "assignedProxyFor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "castOptionalOrFatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "castOrFatalError"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "createProxyForObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createRxDataSourceProxy"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "currentDelegateFor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSourceAssociatedTag"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "forwardToDelegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "numberOfComponents"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "numberOfComponentsInPickerView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "pickerView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "pickerViewDataSourceNotSet"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "setCurrentDelegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "setForwardToDelegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["So16_RXDelegateProxyC", "AnyObject"]
+- ["So16_RXDelegateProxyC", "Bool"]
+- ["So16_RXDelegateProxyC", "Int"]
+- ["So16_RXDelegateProxyC", "UIPickerView"]
+- ["So16_RXDelegateProxyC", "UIPickerViewDataSource"]
+- ["So16_RXDelegateProxyC", "UnsafeRawPointer"]
+- ["So16_RXDelegateProxyC", "_requiredMethodsDataSource"]
+- ["So16_RXDelegateProxyC", "assignProxy"]
+- ["So16_RXDelegateProxyC", "assignedProxyFor"]
+- !private ["So16_RXDelegateProxyC", "castOptionalOrFatalError"]
+- !private ["So16_RXDelegateProxyC", "castOrFatalError"]
+- ["So16_RXDelegateProxyC", "createProxyForObject"]
+- ["So16_RXDelegateProxyC", "currentDelegateFor"]
+- !private ["So16_RXDelegateProxyC", "dataSourceAssociatedTag"]
+- ["So16_RXDelegateProxyC", "delegateAssociatedObjectTag"]
+- ["So16_RXDelegateProxyC", "forwardToDelegate"]
+- ["So16_RXDelegateProxyC", "numberOfComponents"]
+- ["So16_RXDelegateProxyC", "numberOfComponentsInPickerView"]
+- ["So16_RXDelegateProxyC", "pickerView"]
+- ["So16_RXDelegateProxyC", "pickerViewDataSourceNotSet"]
+- ["So16_RXDelegateProxyC", "setCurrentDelegate"]
+- ["So16_RXDelegateProxyC", "setForwardToDelegate"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "7RxCocoa13DelegateProxyC"
+- "7RxCocoa17DelegateProxyTypeP"
+- "s9EquatableP"
+- "s8HashableP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "7RxSwift18ReactiveCompatibleP"
+- "7RxCocoa0A25PickerViewDataSourceProxyC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So12UIPickerViewC"
+- "So22UIPickerViewDataSourceP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "So16_RXDelegateProxyC"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/martyn/Development/AppCoordinatorsLearning/DerivedData/AppCoordinatorsLearning/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/DerivedData/AppCoordinatorsLearning/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/martyn/Development/AppCoordinatorsLearning/DerivedData/AppCoordinatorsLearning/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Users/martyn/Development/AppCoordinatorsLearning/DerivedData/AppCoordinatorsLearning/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/usr/include/Darwin.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/martyn/Downloads/Xcode9.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "137b8a87655d19af3da18e9299864608"

@@ -1,0 +1,6 @@
+framework module Pods_AppCoordinatorsLearning {
+  umbrella header "Pods-AppCoordinatorsLearning-umbrella.h"
+
+  export *
+  module * { export * }
+}
